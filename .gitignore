@@ -1,0 +1,120 @@
+# 운영 체제 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.swp
+*.swo
+
+# 디렉토리
+node_modules/
+vendor/
+
+# 빌드 디렉토리
+dist/
+build/
+out/
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# IDE 및 편집기 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# macOS files
+*.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pydist
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# 데이터 파일
+*.csv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.json
+
+# 모델 체크포인트
+*.ckpt
+*.pth
+*.pt
+*.model
+
+# TensorFlow/keras
+checkpoint
+*.ckpt.data-00000-of-00001
+*.ckpt.index
+*.hdf5
+
+# PyTorch
+*.pt
+*.pth
+
+# Scikit-learn
+*.joblib
+
+# 기타 머신러닝 관련 파일
+*.tensorboard
+*.log
+
+# 결과 파일
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# 각종 캐시 파일
+.cache/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# 패키지 관리자
+*.lock
